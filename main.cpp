@@ -25,7 +25,7 @@ vector<string> split_and_trim(const string &s) {
     }
     return out;
 }
-
+// function if sql not found
 bool execute_sql(sqlite3* db, const string& sql) {
     char *err = nullptr;
     int rc = sqlite3_exec(db, sql.c_str(), nullptr, nullptr, &err);
