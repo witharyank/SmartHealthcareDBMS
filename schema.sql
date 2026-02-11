@@ -49,7 +49,7 @@ CREATE TABLE IF NOT EXISTS Doctors (
                                        contact TEXT
 );
 
--- 6. Prescriptions Table
+-- 6. Prescriptions Table updated
 CREATE TABLE IF NOT EXISTS Prescriptions (
                                              prescription_id INTEGER PRIMARY KEY AUTOINCREMENT,
                                              patient_id INTEGER,
